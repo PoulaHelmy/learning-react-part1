@@ -62,7 +62,7 @@ class App extends Component {
     render() {
         return (
             <React.Fragment>
-                <Navbar/>
+                <Navbar count={this.state.products.length}/>
                 <main className="container">
                     <ShoppingCart
                         onIncrement={this.handleIncrement}

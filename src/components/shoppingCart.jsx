@@ -2,8 +2,6 @@ import React, {Component} from "react";
 import Product from "./Product";
 
 class ShoppingCart extends Component {
-
-
     render() {
         return (
             <React.Fragment>

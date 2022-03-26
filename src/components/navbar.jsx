@@ -6,8 +6,8 @@ class Navbar extends Component {
             <React.Fragment>
                 <nav className="navbar navbar-dark bg-dark">
                     <div className="container-fluid">
-                        <a className="navbar-brand" href="#">Navbar</a>
-                        <span className="badge bg-primary">3</span>
+                        <a className="navbar-brand">Navbar</a>
+                        <span className="badge bg-primary">{this.props.count}</span>
                     </div>
                 </nav>
             </React.Fragment>

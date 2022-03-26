@@ -3,8 +3,6 @@ import {getBadgeClasses} from "../utils/styleUtils";
 
 
 class Product extends Component {
-
-
     handleClick = (type, num) => {
         const value = type === 'add' ? this.state.count + num : this.state.count - num;
         this.setState({
@@ -12,9 +10,7 @@ class Product extends Component {
         });
     };
 
-
     render() {
-        console.log(this.props);
         return (
             <div className="m-2">
                 <span>{this.props.product.name}</span>
